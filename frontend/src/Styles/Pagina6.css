@@ -1,0 +1,91 @@
+
+#Main6{
+    margin:0;
+    width: 100%;
+
+    padding: 0;
+    
+}
+.LinksPrincipal{
+    margin:0 10px 0 10px;
+    width: 40px;
+
+}
+.LinksPrincipal2{
+    margin:0 10px 0 10px;
+    width: 60px;
+
+}
+.Center{
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    height: 60px;
+    background-color: #fadc52;
+    
+}
+#EsitoPuto{
+    width: calc(100%-4px);
+    min-height:calc(100vh - 114px);
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column;
+
+}
+
+#LinksPrincipalC{
+    padding: 10px;
+    background-color: #fadc52;
+    width: calc(100%-20px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 32px;
+}
+#Rutinas{
+    background-image: url(/images/Rutinas.png);    
+}
+#Alimentacion{
+    background-image: url(/images/Ali.png);  
+}
+#Reco{
+    background-image: url(/images/Reco.png);  
+}
+#Cuenta{
+    background-image: url(/images/Cuenta.png);  
+}
+#Ayuda{
+    background-image: url(/images/Ayuda2.png);  
+}
+.EHE{
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% -4px);
+    height: 100px;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: black;
+}
+@media(min-width: 600px){
+    #EsitoPuto{
+       align-items: center;
+    }
+    .EHE{
+        width: 600px;
+    }
+    }
+.EstoESo{
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.quitarraya{
+    text-decoration: none;
+}
