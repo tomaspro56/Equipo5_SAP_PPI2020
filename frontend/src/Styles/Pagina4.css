@@ -1,0 +1,110 @@
+#Pag4_1,#Pag4_2, #Pag4_3, #Pag4_4{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Algititico{
+    text-align: center;
+    width: 60%;
+}
+#Estoalguito{
+    width: 90%;
+}
+@media(min-width:600px){
+    #Estoalguito{
+        width: 40%;
+    }
+}
+.jeje{
+    background-color: transparent;
+    border: transparent;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    background-image: url(https://1.bp.blogspot.com/-VJs9LbN5V-E/WiJoV53qYZI/AAAAAAAACtw/sXDK70o0H-QKIVw5--NImoMlo0PyAac7QCLcBGAs/s1600/raya%2Bnegra.png);
+}
+.Pag4_1_2{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fadc52;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+}
+
+.Pag4_1_3{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fadc52;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+}
+#alguito{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.algominialgo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.algominialgo_{
+    text-align: center;
+    width: calc(100% - 40px);
+}
+.inputF{
+    border-radius: 10px;
+    background-color: transparent;
+    border:1px solid blue;
+    height: 40px;
+    width: 230px;
+}
+#Esto{
+    margin: 5px;
+}
+.inputF2{
+    background-image: url(/images/Password.png);
+    background-position: 1px center;
+    background-repeat: no-repeat;
+    background-size: 45px;
+}
+@media(min-width: 600px){
+    .Pag4_1_2{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #fadc52;
+        padding: 10px;
+        border-radius: 10px;
+        width: 60%;
+        height: 60%;
+    }
+    .Pag4_1_3{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #fadc52;
+        padding: 10px;
+        border-radius: 10px;
+        width: 60%;
+        height: 60%;
+    }
+}
